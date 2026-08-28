@@ -1,0 +1,54 @@
+# Dependencies - Never commit these as they are downloaded via npm install
+node_modules/
+jspm_packages/
+
+# Environment variables and secrets - CRITICAL to ignore for security
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# Logs - Prevents cluttering your repo with runtime logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Directory for instrumented code coverage downloads (Testing)
+lib-cov
+coverage
+.nyc_output
+
+# Build and Compilation outputs (if using TypeScript or Babel)
+dist/
+build/
+
+# Optional npm cache and IDE configurations
+.npm
+.eslintcache
+.prettiercache
+.vs/
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+Thumbs.db
